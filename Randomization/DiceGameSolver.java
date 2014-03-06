@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 class DiceGameSolver {
   public static void main (String[] args) {
     Die[] diceA = new Die[6];
