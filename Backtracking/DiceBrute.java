@@ -18,7 +18,7 @@ class DiceBrute {
 	    dice [11] = 7;
         
         int counter = 0;
-        int max = 6;
+        int max = dice[11];
         while (!isFinalSolution(dice)) {
 	        if (counter < 1000000) {
 	        	dice[2] = randomNumber(max);
